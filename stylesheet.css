@@ -6,17 +6,33 @@
 }
 
 * {
-    background-color: rgba(22, 3, 3, 0.171);
+    background-color: rgba(2, 39, 6, 0.445);
 }
 
 .column2of3 {
     width: 60%;
     float: left;
     margin: 10px;
+    background-color: #00baf2;
+    text-align: center;
 }
 
 .headline {
     text-align: center;
+}
+
+div.column2of3>img {
+    margin: 0px auto 0px auto;
+
+}
+
+div.column2of3 div {
+    margin: 0px auto 0px auto;
+    width: 60%;
+}
+
+div.column2of3 div h2 {
+    text-align: left;
 }
 
 @media only screen and (max-width: 600px) {
