@@ -46,4 +46,11 @@ div.column2of3 div h2 {
         display: none;
     }
 
+    .column2of3 {
+        width: 100%;
+        float: none;
+        margin: 10px;
+        background-color: #00baf2;
+        text-align: center;
+    }
 }
