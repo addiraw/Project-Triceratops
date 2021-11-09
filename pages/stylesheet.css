@@ -1,0 +1,84 @@
+.column1of3,
+.column3of3 {
+    width: 10%;
+    float: left;
+    margin: 10px;
+}
+
+* {
+    background-color: rgba(2, 39, 6, 0.445);
+}
+
+.column2of3 {
+    width: 60%;
+    float: left;
+    margin: 10px;
+    /* background-color: #00baf2; */
+    text-align: center;
+}
+
+.column2of3 :first-child {
+    background-color: #00baf2;
+}
+
+
+
+.headline {
+    text-align: center;
+}
+
+div.column2of3>div>img {
+    margin: 0px auto 0px auto;
+
+
+}
+
+div.column2of3 div {
+    margin: 0px auto 0px auto;
+    width: 60%;
+}
+
+div.column2of3 div h3 {
+    text-align: left;
+    margin: 0px;
+    font-family: sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgba(173, 216, 230, 0.329);
+
+    }
+
+    .column1of3,
+    .column3of3 {
+        display: none;
+    }
+
+    .column2of3 {
+        width: 100%;
+        float: none;
+        /* margin: 10px; */
+        background-color: #00baf2;
+        text-align: center;
+    }
+
+    div.column2of3 div {
+        margin: 0px auto 0px auto;
+        width: 10 0%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.steps {
+    text-align: start;
+}
