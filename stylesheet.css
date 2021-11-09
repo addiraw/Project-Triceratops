@@ -1,4 +1,33 @@
-.header{
-    font-size:large ;
-    align-content: center;
+.column1of3,
+.column3of3 {
+    width: 10%;
+    float: left;
+    margin: 10px;
+}
+
+* {
+    background-color: rgba(22, 3, 3, 0.171);
+}
+
+.column2of3 {
+    width: 60%;
+    float: left;
+    margin: 10px;
+}
+
+.headline {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgba(173, 216, 230, 0.329);
+
+    }
+
+    .column1of3,
+    .column3of3 {
+        display: none;
+    }
+
 }
