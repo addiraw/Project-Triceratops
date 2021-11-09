@@ -6,16 +6,22 @@
 }
 
 * {
-    background-color: rgba(2, 39, 6, 0.445);
+    /* background-color: rgba(2, 39, 6, 0.445); */
 }
 
 .column2of3 {
     width: 60%;
     float: left;
     margin: 10px;
-    background-color: #00baf2;
+    /* background-color: #00baf2; */
     text-align: center;
 }
+
+.column2of3 :first-child {
+    background-color: #00baf2;
+}
+
+
 
 .headline {
     text-align: center;
@@ -53,8 +59,22 @@ div.column2of3 div h2 {
         background-color: #00baf2;
         text-align: center;
     }
+
     div.column2of3 div {
         margin: 0px auto 0px auto;
-        width: 10   0%;
+        width: 10 0%;
     }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.steps {
+    text-align: start;
 }
