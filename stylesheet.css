@@ -1,50 +1,59 @@
-nav {
-    position: absolute;
-    top: 80px;
-    right: 10px;
-}
-
-nav>div>ul {
-    text-align: right;
-}
-
-nav>div>ul>li {
-    display: inline-block;
-    font-size: xx-large;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgba(238, 240, 118, 0.178);
-    border: 3px dotted rgb(216, 81, 81);
-}
-
-nav>div>ul>li:hover {
-    display: inline-block;
-    font-size: x-large;
-    margin: 10.1px;
-    padding: 10.1px;
-    background-color: rgba(195, 197, 49, 0.589);
-    border: 3px dotted rgb(184, 20, 20);
-}
-
-footer {
-    width: 90%;
-    background-color: rgba(204, 59, 59, 0.233);
-    border: 30px double #32a1ce;
-    height: 100px;
-    margin: 0 auto 0 auto;
-}
-
-header>section>img {
-    width: 100%;
-    height: 500px;
+.banner>img {
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
+    width: 100%;
 }
-.col-1-3,
-.col-2-3,
-.col-3-3
-{
+
+.logo {
+    position: absolute;
+    left: 100px;
+    top: 45px;
+    border: 5px solid #af1caf5d;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.logo>p {
+    letter-spacing: 20px;
+    font-weight: 700;
+    color: rgba(53, 82, 64, 0.863);
+    font-size: 350%;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 228, 196, 0.342);
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.logo1 {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+.col-1-2 {
+    width: 20%;
+}
+
+.col-2-2 {
+    width: 50%;
+}
+.col-1-2,
+.col-2-2 {
+    /* width: 45%; */
     float: left;
-    width: 30%;
+    /* display: inline-block; */
+    border: 2px solid red;
+    margin: 1%;
+
+}
+div.col-2-2 p{
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    letter-spacing: 0.01em;
+    text-align: justify;
 }
