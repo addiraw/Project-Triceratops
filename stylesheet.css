@@ -1,3 +1,6 @@
+*{
+    /* background-color: rgba(0, 0, 0, 0.315); */
+}
 .banner>img {
     position: relative;
     top: 10px;
@@ -56,4 +59,32 @@ div.col-2-2 p{
     font-family: sans-serif;
     letter-spacing: 0.01em;
     text-align: justify;
+}
+.container
+{
+    width: 650px;
+    margin: 0 auto 0 auto;
+}
+.newProject
+{
+    font-size: 96px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(236, 100, 9);
+    letter-spacing: 5px;
+}
+
+.name
+{
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(236, 100, 9);
+}
+.purpose
+{
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(236, 100, 9);
 }
